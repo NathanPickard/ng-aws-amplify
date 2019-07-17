@@ -1,0 +1,19 @@
+{
+    "firstenv": {
+        "awscloudformation": {
+            "AuthRoleName": "ng-aws-amplify-firstenv-20190715131001-authRole",
+            "UnauthRoleArn": "arn:aws:iam::854875202353:role/ng-aws-amplify-firstenv-20190715131001-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::854875202353:role/ng-aws-amplify-firstenv-20190715131001-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "ng-aws-amplify-firstenv-20190715131001-deployment",
+            "UnauthRoleName": "ng-aws-amplify-firstenv-20190715131001-unauthRole",
+            "StackName": "ng-aws-amplify-firstenv-20190715131001",
+            "StackId": "arn:aws:cloudformation:us-west-2:854875202353:stack/ng-aws-amplify-firstenv-20190715131001/86a41f50-a73c-11e9-a632-02f7a30bb7a6"
+        },
+        "categories": {
+            "auth": {
+                "ngawsamplify269e9f71": {}
+            }
+        }
+    }
+}

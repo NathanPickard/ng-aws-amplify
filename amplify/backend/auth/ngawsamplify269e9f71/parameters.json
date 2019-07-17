@@ -1,0 +1,62 @@
+{
+    "identityPoolName": "ngawsamplify269e9f71_identitypool_269e9f71",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "ngawsa269e9f71_openid_lambda_role",
+    "resourceNameTruncated": "ngawsa269e9f71",
+    "userPoolName": "ngawsamplify269e9f71_userpool_269e9f71",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "ngawsa269e9f71_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "ngawsa269e9f71_totp_lambda_role",
+    "userpoolClientLambdaRole": "ngawsa269e9f71_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "resourceName": "ngawsamplify269e9f71",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "usernameAttributes": [
+        "email"
+    ],
+    "additionalQuestions": [],
+    "dependsOn": []
+}

@@ -66,4 +66,11 @@ export class AppComponent {
     window.open(event, '_blank');
   }
 
+  customVoiceConfig = {
+    silenceDectectionConfig: {
+      time: 2000,
+      amplitude: 0.2
+    }
+  }
+
 }

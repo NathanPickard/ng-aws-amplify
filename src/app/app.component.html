@@ -1,2 +1,7 @@
-<amplify-authenticator></amplify-authenticator>
+<amplify-authenticator [hide]="['Greetings']" [signUpConfig]="signUpConfig" [usernameAttributes]="usernameAttribues">
+</amplify-authenticator>
 
+<!-- <amplify-photo-picker path="pics" (picked)="onImagePicked($event)" (loaded)="onImageLoaded($event)">
+</amplify-photo-picker> -->
+
+<amplify-s3-album path="pics" (selected)="onAlbumSelected($event)"></amplify-s3-album>

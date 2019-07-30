@@ -1,10 +1,10 @@
-<amplify-authenticator [hide]="['Greetings']" [signUpConfig]="signUpConfig" [usernameAttributes]="usernameAttribues">
+<amplify-authenticator [hide]="['Greetings']" [signUpConfig]="signUpConfig" [usernameAttributes]="usernameAttributes">
 </amplify-authenticator>
 
 <!-- <amplify-photo-picker path="pics" (picked)="onImagePicked($event)" (loaded)="onImageLoaded($event)">
 </amplify-photo-picker> -->
 
-<amplify-s3-album path="pics" (selected)="onAlbumSelected($event)"></amplify-s3-album>
+<amplify-s3-album path="pics" (selected)="onAlbumImageSelected($event)"></amplify-s3-album>
 
 <!-- <amplify-interations bot="botName" clearComplete="true" (complete)="onBotComplete($event)" [conversationModeOn]="false"
   [voiceConfig]="{customVoiceConfig}" [voiceEnabled]="true" [textEnabled]="true"></amplify-interations> -->
